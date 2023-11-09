@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lord;
 
-/**
- *
- * @author Admin
- */
-public class home {
+
+public class home extends doings{
+  home(String name){
+      super(name);
+  }
+  void gwapo(){
+      System.out.println(name +"is too handsome");
+  }
+} 
+
+
+
+   
     
-}
+

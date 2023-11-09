@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lord;
 
-/**
- *
- * @author Admin
- */
+
 public class doings {
-    
+    String name;
+    doings (String name){
+        this.name = name;
+    }
+    void good(){
+        System.out.println(name +" is good");
+    }
+    void power(){
+        System.out.println(name +" is powerful");
+    }
+    void love(){
+        System.out.println(name + " loves you");
+    }
 }
